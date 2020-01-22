@@ -56,8 +56,9 @@
         <ul class="list-group list-group-flush text-left">
           <li
             class="list-group-item"
-            v-for="(item, key) in filteredTodos"
+            v-for="(item, index) in filteredTodos"
             @dblclick="editTodo(item)"
+            :key="index"
           >
             <div class="d-flex" v-if="item.id !== cacheTodo.id">
               <div class="form-check">
