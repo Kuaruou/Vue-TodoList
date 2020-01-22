@@ -114,9 +114,7 @@ clearAll: function() {
 
 *開發錯誤
 
-1. Failed to load resource: the server responded with a status of 404 / net::err_aborted 404
-
-解法: 檢查 router 的 process.env.base_url 是否有被設定，取消之。
+1. Failed to load resource: the server responded with a status of 404 / net::err_aborted 404。路徑錯誤，因為在 vue.config.js 設定的 publicPath 沒有被正確輸出，檢查 router 的 base: process.env.BASE_URL 是否有被設定，取消之。
 
 ## Project setup
 ```
