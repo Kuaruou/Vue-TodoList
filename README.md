@@ -12,7 +12,7 @@
 
 3. 將資料寫入LocalStorage之中避免資料在重新整理或重新開啟後流失。
 
-<h4>技術</h4>
+*技術
 <p>
   <code>Vue CLI</code>
   <code>Vue Router</code>
