@@ -17,7 +17,6 @@
   <code>Vue CLI</code>
   <code>Vue Router</code>
   <code>Bootstrap 4</code>
-  <code>SCSS</code>
   <code>LocalStorage</code>
   <code>Font Awesome</code>
   <code>VueSweetalert2</code>
