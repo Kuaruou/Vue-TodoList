@@ -12,6 +12,17 @@
 
 3. 將資料寫入LocalStorage之中避免資料在重新整理或重新開啟後流失。
 
+<h4>技術</h4>
+<p>
+  <code>Vue CLI</code>
+  <code>Vue Router</code>
+  <code>Bootstrap 4</code>
+  <code>SCSS</code>
+  <code>LocalStorage</code>
+  <code>Font Awesome</code>
+  <code>VueSweetalert2</code>
+</p>
+
 *Vue
     
 1. addTodo: 宣告newTodo作為新增資料的變數以儲存新增的值，且用timestamp作為id，預設completed為false未完成。且以trim和if(!value)刪去多餘空格和避免未填寫而儲存空的值。
